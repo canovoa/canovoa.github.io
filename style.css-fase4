@@ -1,0 +1,232 @@
+body{
+    font-size: 18 px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D7E079;
+    color: #01030A;
+}
+.HeaderLogo{
+    width: 20%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+}
+.HeaderNav{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.HeaderNav a{
+    color: #01030A;
+    text-decoration: none;
+}
+.NavMapadeubicacion{
+    width: 18%;
+    padding: 10px 0 10px 0;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    
+}
+.NavMapadeubicacion:hover{
+     color: #01030A;
+     background-color: #b7fefe7e;
+}
+.SectionOne{
+     position: relative;
+}
+.SectionOneTitle{
+     position: absolute;
+     top: 85%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     text-transform: uppercase;
+     color: #0a1c21;
+     font-size: 5.0rem;
+     
+}
+.SectionOne img{
+    width: 100%;
+}
+.SectionTwo{
+    position: relative;
+    overflow: hidden;
+   
+}
+.SectionTwoTitle{
+    position: absolute;
+    top: -2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #0a1c21;
+    font-size: 3.0rem;
+}
+.SectionTwo img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    float: left;
+    align-items: center;
+    
+   
+}
+
+.SectionThree{
+    position: relative;
+    overflow: hidden;
+}
+.SectionThreeTitle{
+    position: absolute;
+    top: -2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #0a1c21;
+    font-size: 3.0rem;
+} 
+.SectionThree img{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    align-items: center;
+
+    
+}
+.SectionFour{
+    position: relative;
+
+}
+.SectionFourTitle{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #0a1c21;
+    font-size: 2.0rem;
+} 
+.p{
+    display: inline-block;
+}
+.SectionFive{
+    position: relative;
+}
+.SectionFiveTitle{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #0a1c21;
+    font-size: 2.0rem;
+} 
+.SectionFive img{
+    width: 30%;
+}
+.SectionSix{
+    position: relative;
+}
+.SectionSixTitle{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #0a1c21;
+    font-size: 2.0rem;
+} 
+.SectionSix img{
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.FooterName{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.7rem;
+}
+.Footerdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+}
+@media screen and (orientation: landscape) and (max-width:480px){
+    .HeaderLogo{
+        color: #ff9233;
+        width: 100%;
+        background: #b7fefe7e ;
+        position: relative;
+        transform: scale(1);
+    }
+    .SectionTwoTitle{
+        color: #d3ff33;
+        width: 95%;
+        background: #b7e0fe7e ;
+        position: relative;
+        transform: scale(1);
+    }
+}
+@media screen and (orientation: landscape) and (max-width:768px){
+    .HeaderLogo{
+        color: #ffd633;
+        width: 90%;
+        background: #c7b7fe7e ;
+        position: relative;
+        transform: scale(1);
+    }
+    .SectionTwoTitle{
+        color: #ff8133;
+        width: 100%;
+        background: #b7fefc7e ;
+        position: relative;
+        transform: scale(1);
+    }
+}
+@media screen and (orientation: landscape) and (max-width:1024px){
+    .HeaderLogo{
+        color: #33ffa7;
+        width: 80%;
+        background: #feb7b77e ;
+        position: relative;
+        transform: scale(1);
+    }
+    .SectionTwoTitle{
+        color: #ffcf33;
+        width: 100%;
+        background: #feb7f07e ;
+        position: relative;
+        transform: scale(1);
+    }
+}
